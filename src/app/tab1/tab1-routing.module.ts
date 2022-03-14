@@ -4,7 +4,7 @@ import { Tab1Page } from './tab1.page';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'position/:long/:lati',
     component: Tab1Page,
   }
 ];

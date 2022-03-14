@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "servidores-91228": {
+      "hosting": {
+        "app": [
+          "servidores-91228"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "servidores-91228"
+  }
+}

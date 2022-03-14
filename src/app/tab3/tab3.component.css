@@ -1,0 +1,24 @@
+@keyframes ani {
+  from {
+    filter: hue-rotate(108deg);
+  }
+  to {
+    filter: none;
+  }
+}
+
+img {
+  width: 13em;
+  display: inline-block;
+  position: relative;
+  bottom: -1em;
+  animation-name: "ani";
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  transition: 0.5s;
+}
+
+div {
+  margin-top: 24vh;
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+ion-icon {
+  position: absolute;
+  right: 1em;
+}
+
+p {
+  text-align: center;
+  margin-top: 40vh;
+}
+
+.openQr {
+  margin-right: 3em;
+}
+
+.edit {
+  margin-right: 1.5em;
+}
+
+
+span, ion-icon {
+  cursor: pointer;
+}
+
+.delete {
+  color: rgb(255, 105, 105);
+}
+
+.edit {
+  color: rgb(191, 162, 0);
+}
+
+

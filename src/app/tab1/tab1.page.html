@@ -3,7 +3,12 @@
     <ion-title>
       Mapa
     </ion-title>
+    <ion-icon (click)="miPosicion()" name="Ir a mi posición actual" alt="Ir a mi posición actual" id="currentPosition" name="radio-outline"></ion-icon>
   </ion-toolbar>
 </ion-header>
 
 <div id="map" class="map-container"></div>
+
+<div (click)="guardarUbicacion()" *ngIf="showSave" id="save">
+  <ion-icon name="save-outline"></ion-icon>
+</div>
